@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 10</title>
+</head>
+<body align="center">
+
+    <!--Melissa Fernanda Gallegos Rojas-->
+    
+        <h1>Formulario de Registro</h1>
+
+        <form action="#" method="post">
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="50" required placeholder="Ingrese su nombre" autofocus>
+            <br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="18" max="100" step="1" required>
+            <br><br>
+
+              <label>Género:</label><br>
+              <input type="radio" id="mas" name="genero" value="masculino" checked>
+              <label for="mas">Masculino</label><br>
+              <input type="radio" id="fem" name="genero" value="femenino">
+              <label for="fem">Femenino</label>
+              <br><br>
+        
+            <label for="muni">Municipio:</label>
+            <select id="muni" name="muni" required>
+              <option value="">Seleccione su municipio</option>
+              <option value="Playas">Playas de Rosarito</option>
+              <option value="Mexicali">Mexicali</option>
+              <option value="Tijuana">Tijuana</option>
+              <option value="Ensenada">Ensenada</option>
+              <option value="Tecate">Tecate</option>
+            </select>
+            <br><br>
+    
+             <label for="correo">Correo electrónico:</label>
+             <input type="text" id="correo" name="correo" maxlength="80" required placeholder="Ingrese su correo" autofocus>
+             <br><br>
+
+             <label for="pass">Contraseña:</label>
+             <input type="password" id="pass" name="pass" minlength="8" required placeholder="Ingrese su contraseña">
+             <br><br>
+
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" maxlength="300" placeholder="Escriba aquí sus comentarios"></textarea>
+            <br><br>
+        
+            <input type="checkbox" id="terminos" name="terminos" checked>
+            <label for="terminos">Acepto los términos y condiciones</label>
+            <br><br>
+    
+            <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
