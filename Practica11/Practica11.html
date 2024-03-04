@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 11</title>
+
+    <link rel="stylesheet" href="">
+
+</head>
+<body>
+
+    <!--Melissa Fernanda Gallegos Rojas-->
+
+    <div id="encabezado" class="pieEncabezado">#divEncabezado</div><br>
+
+    <div id="menu">#divMenu</div><br>
+
+    <div id="contenedor">
+
+        <div id="publicidad" class="contenedores">#divPublicidad</div>
+        <div id="contenido">#divContenido</div>
+        <div id="link" class="contenedores">#divLink</div>
+
+    </div>
+
+    <div id="pie" class="pieEncabezado">#divPie</div>
+    
+</body>
+</html>
+
+<style>
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-color: #FDFFC1;  
+    height: 100vh;
+    margin-top: 2vh;
+    margin: 2vh;
+}
+
+#encabezado, #menu, #pie, #contenedor{
+  width: 100%;
+  height: 8%;
+}
+
+#encabezado{
+    background-color: #93FFA0;
+}
+
+#menu{
+    height: 5%;
+    background-color: #45E258;
+}
+
+#contenedor{
+    display: flex;
+    height: 75%;
+    justify-content: space-around;
+  }
+
+#contenido{
+    background-color: #FBFF76;
+    width: 50%;
+}
+
+#pie{
+    background-color: #D38FFF;
+}
+
+.contenedores{
+    background-color: #64E1E5;
+}
+
+.pieEncabezado{
+    height: 8%;
+    border-color: black;
+}
+
+.contenedores, #contenido{
+    height: 95%;
+}
+
+.contenedores{
+    width: 20%;
+}
+</style>
